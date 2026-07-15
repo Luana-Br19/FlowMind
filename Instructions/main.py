@@ -1,0 +1,57 @@
+# def main():
+
+#     intake = load_input()
+
+#     planner = Planner()
+
+#     plan = planner.create_plan(intake)
+
+#     router = Router()
+
+#     result = router.execute(plan)
+
+#     GitService().commit(result)
+
+#     return result 
+
+from models.intake_item import IntakeItem
+from planner import Planner
+from router import Router
+
+
+def main():
+
+    intake = IntakeItem(
+
+        text="Meine Steuerrechnung",
+
+        tags=["finance"],
+
+        attachments=["steuer.pdf"],
+
+        user="Philipp"
+
+    )
+
+    print("Neue Anfrage eingegangen")
+    print()
+
+    planner = Planner()
+
+    plan = planner.create_plan(intake)
+
+    print("Plan erstellt:")
+    print(plan)
+    print()
+
+    router = Router()
+
+    result = router.execute(plan, intake)
+
+    print("Ergebnis:")
+    print(result)
+
+
+if __name__ == "__main__":
+    main()
+
