@@ -9,17 +9,22 @@ class Planner:
 
             return Plan(
                 category="finance",
-                tasks=[
-                    "extract",
-                    "analyse",
-                    "write"
-                ]
+                # tasks=[
+                #     "extract",
+                #     "analyse",
+                #     "write"
+                # ]
+            )
+        elif "workshop" in intake.tags:
+            
+            return Plan(    
+                category="workshop",
             )
 
         return Plan(
             category="general",
-            tasks=[
-                "analyse",
-                "write"
-            ]
+            # tasks=[
+            #     "analyse",
+            #     "write"
+            # ]
         )

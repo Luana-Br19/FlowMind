@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-
+from typing import Dict, List
 
 @dataclass
 class AgentResult:
@@ -8,4 +8,13 @@ class AgentResult:
 
     category: str
 
-    message: str
+    folder: str
+
+    filename: str
+
+    title: str
+
+    tags: List[str]
+
+    #content: Dict
+

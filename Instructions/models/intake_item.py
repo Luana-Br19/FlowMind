@@ -5,11 +5,14 @@ from typing import List, Dict
 @dataclass
 class IntakeItem:
     text: str
+    input_type: str
     tags: List[str] = field(default_factory=list)
     attachments: List[str] = field(default_factory=list)
-
+    
+    
+    user: str = ""
     source: str = "Slack"
     channel: str = ""
-    user: str = ""
 
     metadata: Dict = field(default_factory=dict)
+

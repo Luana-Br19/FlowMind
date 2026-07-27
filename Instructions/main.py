@@ -1,51 +1,110 @@
+import json
+import sys
+
 from models.intake_item import IntakeItem
 from planner import Planner
 from router import Router
+#from service.markdown_service import MarkdownService
 
-# def main():
+import os
 
-#     intake = IntakeItem(
 
-#         text="Meine Steuerrechnung",
+def check_files(intake):
 
-#         tags=["finance"],
+    for file in intake.attachments:
 
-#         attachments=["steuer.pdf"],
+        if os.path.exists(file):
 
-#         user="Philipp"
+            print(
+              f"[OK] Datei gefunden: {file}"
+            )
 
-#     )
+        else:
 
-#     print("Neue Anfrage eingegangen")
-#     print()
+            print(
+              f"[ERROR] Datei fehlt: {file}"
+            )
+
+def process_intake(intake: IntakeItem):
+
+    print("[INFO] Planner wird gestartet...")
+
+    planner = Planner()
+    plan = planner.create_plan(intake)
+
+    print(f"[INFO] Kategorie erkannt: {plan.category}")
+    cat = plan.category
+
+    print("[INFO] Router wird gestartet...")
+
+    router = Router()
+    result = router.execute(plan, intake)
+
+    if cat == "general":
+        plan.category = result.category
+        print(f"[INFO] NEUE Kategorie erkannt: {plan.category}")
+        result = router.execute(plan, intake)
+
+    # markdown_service = MarkdownService()
+
+    # markdown_service.save(
+
+    #     folder=result.folder,
+
+    #     filename=result.filename,
+
+    #     markdown=result.markdown
+    # )
+    return result
+
+
+def main():
+
+    if len(sys.argv) < 2:
+        print("Verwendung: python3 main.py input.json")
+        return
+
+    with open(sys.argv[1], "r") as f:
+        data = json.load(f)
+
+    intake = IntakeItem(
+        text=data.get("text", ""),
+        tags=data.get("tags", []),
+        attachments=data.get("attachments", []),
+        input_type=data.get("type", ""),
+        user=data.get("user", ""),
+        source=data.get("source", "Slack"),
+        channel=data.get("channel", ""),
+        
+    )
+
+    check_files(intake)
+    print("[INFO] Neue Anfrage erhalten")
+    print(f"Text: {intake.text}")
+    print(f"Tags: {intake.tags}")
+    print()
+
+    result = process_intake(intake)
+
+    print()
+    print("========== ERGEBNIS ==========")
+    print(result)
+    print("PROCESS BEENDET")
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+# def process_intake(intake):
 
 #     planner = Planner()
 
 #     plan = planner.create_plan(intake)
 
-#     print("Plan erstellt:")
-#     print(plan)
-#     print()
-
 #     router = Router()
 
 #     result = router.execute(plan, intake)
 
-#     print("Ergebnis:")
-#     print(result)
-
-
-# if __name__ == "__main__":
-#     main()
-
-def process_intake(intake):
-
-    planner = Planner()
-
-    plan = planner.create_plan(intake)
-
-    router = Router()
-
-    result = router.execute(plan, intake)
-
-    return result
+#     return result

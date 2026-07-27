@@ -1,21 +1,15 @@
 from agents.finance_agent import FinanceAgent
 from agents.general_agent import GeneralAgent
+from agents.workshop_agent import WorkshopAgent
 
 # Router-Klasse, die den Plan ausführt und den entsprechenden Agenten auswählt
 class Router:
 
     def execute(self, plan, intake):
-
-        # if plan.category == "finance":
-
-        #     agent = FinanceAgent()
-
-        # else:
-
-        #     agent = GeneralAgent()
         
         self.agents = {
             "finance": FinanceAgent(),
+            "workshop": WorkshopAgent(),
             #"health": HealthAgent(),
             "general": GeneralAgent()
 }

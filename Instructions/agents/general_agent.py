@@ -8,8 +8,35 @@ class GeneralAgent(BaseAgent):
 
         print("General Agent arbeitet...")
 
+        document_text = ""
+
+        if intake.attachments:
+            document_text = self.pdf_service.attachment_reader(intake)
+
+        response = self.llm.ask(
+
+            system_prompt=open(
+                "prompts/00-Router-Agent.md",
+                encoding="utf-8"
+            ).read(),
+
+            user_prompt=f"""
+                Slack Nachricht:
+                {intake.text}
+                Dokument Inhalt:
+                {document_text}
+                """
+        )
+
+        intake.tag = response.strip('{""}')
+        print(intake.tag)
+
         return AgentResult(
             success=True,
-            category="general",
-            message="Allgemeines Dokument verarbeitet."
+            category="workshop",
+            folder="none",
+            filename="none",
+            title="none",
+            tags="none",
+            #content="none"
         )

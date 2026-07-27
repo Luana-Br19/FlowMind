@@ -1,28 +1,56 @@
 Mögliche Struktur für Agenten und prompts:
 
-knowledge-agent/
+Inbox/
+    Workshops/ 
 
-main.py
+    Finanzen/
 
-agents/
-    planner.py
-    router.py
-    finance.py
-    health.py
-    structurer.py
+    Meetings/
+        Daily/
+        Sprint Planning/
+        Sprint Review/
+        Sprint Retro/
 
-services/
-    git_service.py
-    markdown_service.py
-    slack_service.py
-    llm_service.py
+    Ideas/
+        Project/
+        Department/
+    
+    Geschäftsreise/ #z.B. Aufteilung nach Land
 
-models/
-    intake.py
-    task.py
-    result.py
+Instructions/
 
-prompts/
-    planner.md
-    finance.md
-    health.md
+    main.py
+
+    agents/
+        planner.py
+        router.py
+        base_agent.py
+        general_agent.py
+        finance_agent.py
+        workshop_agent.py
+        meeting_agent.py
+        ideas_agent.py
+        geschäftsreise_agent.py
+
+    models/
+        intake.py
+        task.py
+        result.py
+
+    prompts/
+        workshop.md
+        finance.md
+        meeting.md
+        ideas.md
+        geschäftsreise.md
+
+    services/
+        git_service.py
+        markdown_service.py
+        slack_service.py
+        llm_service.py
+        
+    uploads/ #Orginal PDF Dateien
+
+    json/ #Inhalt (Tags, Input, Quellen) -> später automatisch in Unterordner verschieben?
+

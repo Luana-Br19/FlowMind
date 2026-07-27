@@ -1,14 +1,12 @@
 from agents.base_agent import BaseAgent
 from models.result import AgentResult
-from services.llm_service import LLMService
-from services.pdf_service import PDFService
+import json
 
-# Agent, der Finanzdokumente verarbeitet
-class FinanceAgent(BaseAgent):
+class WorkshopAgent(BaseAgent):
 
     def execute(self, intake):
 
-        print("Finanz Agent arbeitet...")
+        print("Workshop Agent arbeitet...")
 
         document_text = ""
 
@@ -18,7 +16,7 @@ class FinanceAgent(BaseAgent):
 
         tree = self.folder_service.get_tree()
 
-        path = "prompts/05-Finanzen-Agent.md"
+        path = "prompts/01-Workshop-Agent02.md"
         response = self.execute_llm(path, intake, document_text, tree)
 
         data = self.load_json(response)
