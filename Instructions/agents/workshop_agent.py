@@ -19,6 +19,6 @@ class WorkshopAgent(BaseAgent):
         path = "prompts/01-Workshop-Agent02.md"
         response = self.execute_llm(path, intake, document_text, tree)
 
-        data = self.load_json(response)
+        data = self.load_json(response, intake)
 
         return self.agent_result(data, intake)
