@@ -2,32 +2,32 @@
         
         created:: 28.07.2026 14:55
 
-        title:: Rotation der Retrospektiven-Formate
+        title:: Rotation von Retrospektiven-Formaten
 
-        tags:: #idea #department #teamprozesse #retrospektive #scrum
+        tags:: #idea #department #team-prozesse #retrospektive #scrum
 
         source:: ../Instructions/uploads/Test-Idea_Department_RetroFormat.pdf
 
         folder:: Ideas/Department
 
 
-#  Rotation der Retrospektiven-Formate
+#  Rotation von Retrospektiven-Formaten
 
 ## Thema
 
-Verbesserung der Retrospektiven durch wechselnde Formate
+Verbesserung der Retrospektiven durch Formatwechsel
 
 ## Zusammenfassung
 
-            Wechsel von einem durchgängigen Retro-Format zu einer festen Rotation aus vier etablierten Formaten, um eingefahrene Diskussionsmuster zu vermeiden.
+            Wechsel von einem einheitlichen Retro-Format zu einer festen Rotation aus vier etablierten Formaten, um eingefahrene Diskussionsmuster zu vermeiden.
 
 
 ## Kernaussagen
 
-- Letzte 5 Retrospektiven zeigten ähnliche Themen ohne neue Perspektiven
-- Rotation aus vier etablierten Retro-Formaten pro Sprint
-- Scrum Master moderiert wechselnde Formate
-- Ziel: mehr Beteiligung und neue Perspektiven
+- Letzte 5 Retrospektiven zeigten ähnliche, sich wiederholende Themen
+- Team empfindet Retros als eintönig
+- Rotation aus vier Formaten über je einen Sprint vorgeschlagen
+- Moderation durch Scrum Master, kein zusätzlicher Tool- oder Prozessaufwand
 
 ## Action Items
 
