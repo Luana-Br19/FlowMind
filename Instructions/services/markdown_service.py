@@ -95,9 +95,9 @@ class MarkdownService:
     #     return full_path
 
 
-    def save(self, data):
+    def save(self, data, intake):
 
-        markdown = self.create_markdown(data)
+        markdown = self.create_markdown(data, intake)
 
         folder = data["folder"]
         filename = data["filename"]
@@ -121,7 +121,7 @@ class MarkdownService:
     # Hauptfunktion
     ####################################################
 
-    def create_markdown(self, data):
+    def create_markdown(self, data, intake):
 
         markdown = ""
 
@@ -130,7 +130,7 @@ class MarkdownService:
         # tags:: {" ".join("#"+t for t in data.get("tags", []))}
         # source:: {data.get("source","")}
         # folder:: {data.get("folder","")}
-
+        
         markdown += f"""
         
         created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
@@ -142,6 +142,8 @@ class MarkdownService:
         source:: {data.get("source","")}
 
         folder:: {data.get("folder","")}
+
+        id:: {intake.id}
 
 
 #  {data.get("title","")}

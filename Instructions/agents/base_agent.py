@@ -54,25 +54,25 @@ class BaseAgent(ABC):
         
         return response
 
-    def safe_md(self, data):
+    def save_md(self, data, intake):
 
-        markdown = self.markdown_service.create_markdown(data) #result.content
+        markdown = self.markdown_service.create_markdown(data, intake) #result.content
 
         # self.markdown_service.save(
         #     data["folder"], #result.folder,
         #     data["filename"], #result.filename,
         #     markdown
         # )
-        self.markdown_service.save(data)
+        self.markdown_service.save(data, intake)
 
-    def load_json(self, response):
+    def load_json(self, response, intake):
         #print(repr(response))
         try:
             data = json.loads(response)
         except json.JSONDecodeError:
             raise ValueError("Claude hat kein gültiges JSON zurückgegeben.")
 
-        self.safe_md(data)
+        self.save_md(data, intake)
 
         return data
 
