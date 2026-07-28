@@ -19,7 +19,7 @@ class Planner:
                 category="workshop",
             )
         
-        if any(tag in cat for tag in ["idea", "ideas"]):
+        if any(tag in cat for tag in ["idea", "ideas", "idee"]):
             
             return Plan(    
                 category="ideas",
