@@ -1,37 +1,28 @@
 
-            created:: 2026-07-28 10:54:35.505442
+        
+        created:: 28.07.2026 15:51
 
-            title:: – keine –
+        title:: – keine –
 
-            tags:: #workshop
+        tags:: #workshop
 
-            source:: ../Instructions/uploads/02-Meeting-Agent02.md
+        source:: uploads/05-Finance-Agent02.md
 
+        folder:: Workshops
 
-            ## Thema
-
-            – keine –
-
-
-            ## Kernaussagen
-
-            - – keine –
+        id:: 419
 
 
-## Beispiele / Konzepte
+#  – keine –
 
-- – keine –
+## Thema
+
+– keine –
 
 
-## Ergebnisse & Learnings
+## Kernaussagen
 
 - – keine –
-
-
-## Offene Fragen
-
-- – keine –
-
 
 ## Action Items
 
