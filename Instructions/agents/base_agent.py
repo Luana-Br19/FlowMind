@@ -57,11 +57,12 @@ class BaseAgent(ABC):
 
         markdown = self.markdown_service.create_markdown(data) #result.content
 
-        self.markdown_service.save(
-            data["folder"], #result.folder,
-            data["filename"], #result.filename,
-            markdown
-        )
+        # self.markdown_service.save(
+        #     data["folder"], #result.folder,
+        #     data["filename"], #result.filename,
+        #     markdown
+        # )
+        self.markdown_service.save(data)
 
     def load_json(self, response):
         try:
@@ -76,7 +77,7 @@ class BaseAgent(ABC):
     def agent_result(self, data, intake):
         return AgentResult(
             success=True,
-            category=intake.tag, #"workshop",
+            category=intake.tags, #"workshop",
             folder=data["folder"],
             filename=data["filename"],
             title=data["title"],
