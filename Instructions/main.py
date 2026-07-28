@@ -87,6 +87,8 @@ def main():
     print(result)
     print("PROCESS BEENDET")
 
+    return
+
 
 if __name__ == "__main__":
     main()
