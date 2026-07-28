@@ -33,7 +33,7 @@ class GeneralAgent(BaseAgent):
 
         return AgentResult(
             success=True,
-            category="workshop",
+            category=intake.tag,
             folder="none",
             filename="none",
             title="none",

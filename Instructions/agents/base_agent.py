@@ -65,6 +65,7 @@ class BaseAgent(ABC):
         self.markdown_service.save(data)
 
     def load_json(self, response):
+        print(repr(response))
         try:
             data = json.loads(response)
         except json.JSONDecodeError:
