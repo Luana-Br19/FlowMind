@@ -125,11 +125,22 @@ class MarkdownService:
 
         markdown = ""
 
+        # markdown += f"""created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
+        # title:: {data.get("title","")}
+        # tags:: {" ".join("#"+t for t in data.get("tags", []))}
+        # source:: {data.get("source","")}
+        # folder:: {data.get("folder","")}
+
         markdown += f"""created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
+
         title:: {data.get("title","")}
+
         tags:: {" ".join("#"+t for t in data.get("tags", []))}
+
         source:: {data.get("source","")}
+
         folder:: {data.get("folder","")}
+
 
 #  {data.get("title","")}
 
@@ -142,7 +153,7 @@ class MarkdownService:
         if data.get("summary"):
             markdown += f"""## Zusammenfassung
 
-        {data["summary"]}
+            {data["summary"]}
 
 """
 

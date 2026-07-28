@@ -38,5 +38,4 @@ class GeneralAgent(BaseAgent):
             filename="none",
             title="none",
             tags="none",
-            #content="none"
         )
