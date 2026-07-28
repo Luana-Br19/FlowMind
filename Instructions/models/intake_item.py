@@ -9,7 +9,7 @@ class IntakeItem:
     tags: List[str] = field(default_factory=list)
     attachments: List[str] = field(default_factory=list)
     
-    
+    id: str = ""
     user: str = ""
     source: str = "Slack"
     channel: str = ""

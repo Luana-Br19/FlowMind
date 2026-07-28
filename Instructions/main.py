@@ -67,6 +67,7 @@ def main():
         tags=data.get("tags", []),
         attachments=data.get("attachments", []),
         input_type=data.get("type", ""),
+        id=data.get("id", ""),
         user=data.get("user", ""),
         source=data.get("source", "Slack"),
         channel=data.get("channel", ""),
