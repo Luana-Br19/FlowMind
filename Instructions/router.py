@@ -11,12 +11,12 @@ class Router:
     def execute(self, plan, intake):
         
         self.agents = {
-            "finance": FinanceAgent(),
-            "workshop": WorkshopAgent(),
-            "meeting": MeetingAgent(),
-            "ideas": IdeaAgent(),
-            "geschaeftsreise": GeschaeftsreiseAgent(),
-            "general": GeneralAgent()
+            "finance": FinanceAgent(plan.category),
+            "workshop": WorkshopAgent(plan.category),
+            "meeting": MeetingAgent(plan.category),
+            "ideas": IdeaAgent(plan.category),
+            "geschaeftsreise": GeschaeftsreiseAgent(plan.category),
+            "general": GeneralAgent(plan.category)
 }
 
         agent = self.agents.get(plan.category)

@@ -1,8 +1,8 @@
 
         
-        created:: 28.07.2026 12:57
+        created:: 28.07.2026 13:17
 
-        title:: Sprint Review Team Checkout - Sprint 9
+        title:: Sprint Review - Team Checkout Sprint 9
 
         tags:: #meeting #sprint-review #scrum #checkout
 
@@ -11,23 +11,22 @@
         folder:: Meetings/Sprint Review
 
 
-#  Sprint Review Team Checkout - Sprint 9
+#  Sprint Review - Team Checkout Sprint 9
 
 ## Thema
 
-Review der Sprint-9-Ergebnisse: Verbesserung des Checkout-Flows für internationale Kunden und Vorbereitung der Klarna-Zahlungsintegration
+Verbesserung des Checkout-Flows für internationale Kunden und Vorbereitung der Klarna-Zahlungsintegration
 
 
 ## Kernaussagen
 
-- Sprintziel: Verbesserung des Checkout-Flows für internationale Kunden und Vorbereitung der Klarna-Zahlungsintegration
+- Sprintziel: Verbesserung Checkout-Flow international und Vorbereitung Klarna-Integration
 - Drei von fünf Increments vollständig fertiggestellt
-- Gastbestellung ohne Login (CHK-114) live seit 24.07.2026, Kaufabbrüche um ca. 8% reduziert
-- Adressvalidierung DACH-Länder (CHK-118) live, aber Fehler bei österreichischen PLZ
-- Rabattcode-Eingabe (CHK-121) hinter Feature-Flag für 20% der Nutzer
-- Warenkorb-Redesign (CHK-125) Desktop fertig, Mobile folgt in Sprint 10
-- Klarna-Integration (CHK-129) verschoben auf Sprint 10 wegen später Testzugang-Freischaltung
-- Stakeholder-Zufriedenheit steigt laut interner Kurzumfrage über die letzten vier Reviews
+- Gastbestellung ohne Login live seit 24.07.2026, Kaufabbrüche im Checkout um ca. 8% gesunken
+- Adressvalidierung DACH-Länder live, aber Fehler bei österreichischen PLZ
+- Rabattcode-Eingabe hinter Feature-Flag für 20% der Nutzer
+- Warenkorb-Redesign: Desktop fertig, Mobile folgt in Sprint 10
+- Klarna-Zahlungsintegration auf Sprint 10 verschoben, da Testzugang erst spät freigeschaltet wurde
 
 ## Action Items
 

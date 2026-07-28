@@ -30,16 +30,29 @@ class GitService:
 
         message = f"Add {category}: {title}"
 
-        subprocess.run(
-            [
-                "git",
-                "commit",
-                "-m",
-                message
-            ],
+        # subprocess.run(
+        #     [
+        #         "git",
+        #         "commit",
+        #         "-m",
+        #         message
+        #     ],
+        #     cwd=self.repo,
+        #     check=True
+        # )
+
+        result = subprocess.run(
+            ["git", "commit", "-m", message],
             cwd=self.repo,
-            check=True
+            capture_output=True,
+            text=True
         )
+
+        if result.returncode != 0:
+            print("Git Commit fehlgeschlagen")
+            print(result.stdout)
+            print(result.stderr)
+            raise RuntimeError(result.stderr)
 
         subprocess.run(
             [

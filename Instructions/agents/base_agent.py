@@ -7,12 +7,13 @@ from services.folder_service import FolderService
 from models.result import AgentResult
 
 class BaseAgent(ABC):
-    
-    def __init__(self):
+
+    def __init__(self, cat):
         self.llm = LLMService()
         self.pdf_service = PDFService()
         self.markdown_service = MarkdownService()
         self.folder_service = FolderService()
+        self.agent_category = cat
 
     @abstractmethod
     def execute(self, intake):
@@ -78,7 +79,7 @@ class BaseAgent(ABC):
     def agent_result(self, data, intake):
         return AgentResult(
             success=True,
-            category=intake.tags, #"workshop",
+            category= self.agent_category, #intake.tags[0], #"workshop",
             folder=data["folder"],
             filename=data["filename"],
             title=data["title"],
