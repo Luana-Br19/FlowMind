@@ -16,7 +16,7 @@ class MeetingAgent(BaseAgent):
 
         tree = self.folder_service.get_tree()
 
-        path = "prompts/02-Meeting-Agent.md"
+        path = "prompts/02-Meeting-Agent02.md"
         response = self.execute_llm(path, intake, document_text, tree)
 
         data = self.load_json(response)

@@ -4,7 +4,7 @@ import sys
 from models.intake_item import IntakeItem
 from planner import Planner
 from router import Router
-#from service.markdown_service import MarkdownService
+from services.git_service import GitService
 
 import os
 
@@ -18,9 +18,7 @@ def check_files(intake):
             print(
               f"[OK] Datei gefunden: {file}"
             )
-
         else:
-
             print(
               f"[ERROR] Datei fehlt: {file}"
             )
@@ -45,18 +43,15 @@ def process_intake(intake: IntakeItem):
         print(f"[INFO] NEUE Kategorie erkannt: {plan.category}")
         result = router.execute(plan, intake)
 
-    # markdown_service = MarkdownService()
-
-    # markdown_service.save(
-
-    #     folder=result.folder,
-
-    #     filename=result.filename,
-
-    #     markdown=result.markdown
-    # )
     return result
 
+def git_push(result):
+    git = GitService()
+
+    git.push(
+        category=result.category,
+        title=result.title
+    )
 
 def main():
 
@@ -85,6 +80,7 @@ def main():
     print()
 
     result = process_intake(intake)
+    git_push(result)
 
     print()
     print("========== ERGEBNIS ==========")
@@ -94,17 +90,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-# def process_intake(intake):
-
-#     planner = Planner()
-
-#     plan = planner.create_plan(intake)
-
-#     router = Router()
-
-#     result = router.execute(plan, intake)
-
-#     return result

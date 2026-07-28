@@ -4,21 +4,37 @@ from models.plan import Plan
 class Planner:
 
     def create_plan(self, intake):
+        category = intake.tags
+        cat = [wort.lower() for wort in category]
 
-        if "finance" in intake.tags:
+        if any(tag in cat for tag in ["finance", "finanzen"]):
 
             return Plan(
                 category="finance",
-                # tasks=[
-                #     "extract",
-                #     "analyse",
-                #     "write"
-                # ]
             )
-        elif "workshop" in intake.tags:
+
+        if any(tag in cat for tag in ["workshop", "workshops"]):
             
             return Plan(    
                 category="workshop",
+            )
+        
+        if any(tag in cat for tag in ["idea", "ideas"]):
+            
+            return Plan(    
+                category="ideas",
+            )
+
+        if any(tag in cat for tag in ["geschaeftsreise", "geschaeftsreisen"]):
+            
+            return Plan(    
+                category="geschaeftsreise",
+            )
+        
+        if any(tag in cat for tag in ["meeting", "meetings"]):
+            
+            return Plan(    
+                category="meeting",
             )
 
         return Plan(

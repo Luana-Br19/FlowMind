@@ -1,6 +1,9 @@
 from agents.finance_agent import FinanceAgent
 from agents.general_agent import GeneralAgent
 from agents.workshop_agent import WorkshopAgent
+from agents.meeting_agent import MeetingAgent
+from agents.idea_agent import IdeaAgent
+from agents.geschaeftsreise_agent import GeschaeftsreiseAgent
 
 # Router-Klasse, die den Plan ausführt und den entsprechenden Agenten auswählt
 class Router:
@@ -10,7 +13,9 @@ class Router:
         self.agents = {
             "finance": FinanceAgent(),
             "workshop": WorkshopAgent(),
-            #"health": HealthAgent(),
+            "meeting": MeetingAgent(),
+            "ideas": IdeaAgent(),
+            "geschaeftsreise": GeschaeftsreiseAgent(),
             "general": GeneralAgent()
 }
 

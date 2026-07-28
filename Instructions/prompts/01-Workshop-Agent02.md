@@ -165,7 +165,7 @@ Kein zusätzlicher Text.
 Die Antwort muss direkt mit Python json.loads() verarbeitet werden können.
 
 
-Nutze exakt folgende Struktur:
+Nutze exakt folgende Struktur. Source sollte IMMER den Link zum PDF Dokument enthalten, wenn ein PDF Dokument angehängt war:
 
 {
   "folder": "Workshops/<Unterordner>",
@@ -275,7 +275,7 @@ Output:
     "scrum",
     "retrospektive"
   ],
-  "source": "Workshop Input",
+  "source": "../Instructions/{PDF-Path}",
   "topic": "Verbesserung der Sprint Retrospektiven",
   "key_points": [
     "Retrospektiven dienen der kontinuierlichen Verbesserung",

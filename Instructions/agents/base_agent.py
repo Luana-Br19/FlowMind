@@ -32,6 +32,8 @@ class BaseAgent(ABC):
                 {document_text}
                 Aktuelle Ordnerstruktur:
                 {tree}
+                PDF-Path:
+                {intake.attachments}
                 """
         )
         response = self.alter_response(response)
@@ -60,7 +62,6 @@ class BaseAgent(ABC):
             data["filename"], #result.filename,
             markdown
         )
-        #return data
 
     def load_json(self, response):
         try:

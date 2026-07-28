@@ -54,3 +54,15 @@ Instructions/
 
     json/ #Inhalt (Tags, Input, Quellen) -> später automatisch in Unterordner verschieben?
 
+Rückgabefelder Agent:
+folder
+filename
+title
+tags
+source
+topic
+key_points
+actions
+
+Meeting-Agent: 
+meeting-data
