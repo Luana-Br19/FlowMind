@@ -131,7 +131,9 @@ class MarkdownService:
         # source:: {data.get("source","")}
         # folder:: {data.get("folder","")}
 
-        markdown += f"""created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
+        markdown += f"""
+        
+        created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
 
         title:: {data.get("title","")}
 
