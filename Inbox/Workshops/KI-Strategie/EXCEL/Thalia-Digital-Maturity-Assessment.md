@@ -1,10 +1,10 @@
 
         
-        created:: 29.07.2026 13:33
+        created:: 29.07.2026 13:39
 
         title:: Thalia Digital Maturity Assessment
 
-        tags:: #workshop #ki-strategie #thalia #excel
+        tags:: #workshop #ki-strategie #thalia #digital-maturity #excel
 
         source:: uploads/thalia_digital_maturity_assessment.xlsx
 
@@ -19,12 +19,12 @@
 
 ## Thema
 
-Digital Maturity Assessment im Rahmen der KI-Strategie von Thalia
+Digital Maturity Assessment für Thalia
 
 
 ## Kernaussagen
 
-- – keine –
+- Bewertungswerte: 4, 5, 4, 3, 4, 3, 4
 
 ## Action Items
 
