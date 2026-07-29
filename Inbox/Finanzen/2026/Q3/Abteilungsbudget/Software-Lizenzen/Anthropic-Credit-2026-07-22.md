@@ -12,7 +12,7 @@ source:: [[uploads/Receipt_Claude_SDK.pdf]]
 
         agent:: finance
 
-        id:: 457
+        id:: 456
 
 links:: [[finanzen]], [[2026]], [[software]], 
 
@@ -21,24 +21,24 @@ links:: [[finanzen]], [[2026]], [[software]],
 
 ## Thema
 
-Anthropic One-time Credit Purchase
+Anthropic Guthaben-Kauf
 
 ## Zusammenfassung
 
-            Rechnung von Anthropic, PBC über den Kauf eines einmaligen Guthabens (Credit) in Höhe von 20,00 USD zzgl. 19% deutscher Mehrwertsteuer, insgesamt 23,80 USD.
+            Einmaliger Kauf von API-Guthaben (Credit) bei Anthropic, PBC über 20 USD zzgl. 19% deutscher MwSt., Gesamtbetrag 23,80 USD, per Visa bezahlt.
 
 
 ## Kernaussagen
 
 - One-time credit purchase
-- Betrag 20.00 USD zzgl. 19% VAT
-- Gesamtbetrag 23.80 USD
-- Bezahlt per Visa am 22. Juli 2026
+- Betrag: 20.00 USD zzgl. 3.80 USD USt.
+- Gesamt: 23.80 USD
+- Bezahlt per Visa am 22.07.2026
 
 ## Action Items
 
 - [ ] Rechnung prüfen
-- [ ] Zuordnung zu Kostenstelle/Abteilung bestätigen
+- [ ] Bei Bedarf Projektzuordnung nachtragen
 
 ## Rechnungsdetails
 
@@ -52,8 +52,8 @@ Anthropic One-time Credit Purchase
 - **Budget Type**: Abteilungsbudget
 - **Project**: – Abteilung –
 - **Cluster**: Software-Lizenzen
-- **Cost Type**: Software/Cloud-Guthaben
-- **Purpose**: One-time credit purchase (Anthropic API/Claude SDK Guthaben)
-- **Remarks**: Budgettyp nicht eindeutig aus Beleg ersichtlich, daher als Abteilungsbudget eingestuft.
+- **Cost Type**: Software / API-Guthaben
+- **Purpose**: One-time credit purchase (Anthropic API-Guthaben)
+- **Remarks**: Budgettyp nicht eindeutig aus Beleg ersichtlich, daher Abteilungsbudget angenommen.
 - **Year**: 2026
 - **Quarter**: Q3
