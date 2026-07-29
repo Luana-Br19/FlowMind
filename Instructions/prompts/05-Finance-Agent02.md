@@ -315,14 +315,13 @@ und vermerke dies unter remarks.
 
 
 ## Tags
+Nutze höchstens 3 Tags
 
-Beispiele
+Beispiele:
 
 [
 "finanzen",
 "2026",
-"q3",
-"abteilungsbudget",
 "software"
 ]
 
@@ -360,7 +359,7 @@ Output
     "abteilungsbudget",
     "software"
   ],
-  "source": "../Instructions/{PDF-Path}",
+  "source": "Instructions/{PDF-Path}",
   "topic": "Microsoft 365 Lizenz",
   "summary": "Lizenzrechnung für Microsoft 365.",
   "key_points": [

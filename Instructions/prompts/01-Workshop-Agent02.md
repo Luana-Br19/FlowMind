@@ -218,14 +218,13 @@ Nutze exakt folgende Struktur. Source sollte IMMER den Link zum PDF Dokument ent
 
 ## Tags
 
-Erstelle sinnvolle Tags.
+Erstelle sinnvolle Tags. Nutze höchstens 3 Tags:
 
 Beispiele:
 
 [
 "workshop",
 "scrum",
-"agile",
 "softwareentwicklung"
 ]
 

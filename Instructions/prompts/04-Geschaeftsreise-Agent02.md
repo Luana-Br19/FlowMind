@@ -255,7 +255,7 @@ Falls travel_type = Ablauf
 
 ## Tags
 
-Erstelle sinnvolle Tags.
+Erstelle sinnvolle Tags. Nutze höchstens 3 Tags:
 
 Beispiele
 
@@ -326,7 +326,7 @@ Output
     "usa",
     "reise"
   ],
-  "source": "../Instructions/{PDF-Path}",
+  "source": "Instructions/{PDF-Path}",
   "topic": "Geschäftsreise nach Boston",
   "summary": "Reiseinformationen für den Aufenthalt in Boston.",
   "key_points": [

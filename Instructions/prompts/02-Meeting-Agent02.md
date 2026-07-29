@@ -322,7 +322,7 @@ Je nach Meetingtyp:
 
 ## Tags
 
-Erstelle sinnvolle Tags.
+Erstelle sinnvolle Tags. Nutze höchstens 3 Tags:
 
 Beispiele:
 
@@ -369,7 +369,7 @@ Output:
     "daily",
     "scrum"
   ],
-  "source": "../Instructions/{PDF-Path}",
+  "source": "Instructions/{PDF-Path}",
   "topic": "Täglicher Projektstatus",
   "participants": [
     "Max"

@@ -141,8 +141,6 @@ tags:: {" ".join("#"+t for t in data.get("tags", []))}
 
 source:: [[{data.get("source","")}]]
 
-quelle:: [[Instructions/{intake.attachments}]]
-
         folder:: {data.get("folder","")}
 
         agent:: {intake.category}

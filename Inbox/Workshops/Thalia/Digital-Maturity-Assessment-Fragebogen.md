@@ -1,14 +1,12 @@
 
         
-        created:: 29.07.2026 15:27
+        created:: 29.07.2026 15:36
 
-        title:: Digital Maturity Assessment - Zusammenfassung offener Antworten
+        title:: Zusammenfassung & Clusterung der offenen Antworten – Digital Maturity Assessment Thalia
 
-tags:: #workshop #thalia #digital-maturity #digitalisierung #assessment
+tags:: #thalia #digital-maturity #assessment
 
 source:: [[uploads/clusterung_offene_antworten_thalia.pdf]]
-
-quelle:: [[Instructions/['uploads/clusterung_offene_antworten_thalia.pdf']]]
 
         folder:: Workshops/Thalia
 
@@ -16,22 +14,22 @@ quelle:: [[Instructions/['uploads/clusterung_offene_antworten_thalia.pdf']]]
 
         id:: 434
 
-links:: [[workshop]], [[thalia]], [[digital-maturity]], [[digitalisierung]], [[assessment]], 
+links:: [[thalia]], [[digital-maturity]], [[assessment]], 
 
 
-#  Digital Maturity Assessment - Zusammenfassung offener Antworten
+#  Zusammenfassung & Clusterung der offenen Antworten – Digital Maturity Assessment Thalia
 
 ## Thema
 
-Strukturierte Zusammenfassung und Clusterung der offenen Antworten des Digital Maturity Assessments für Thalia
+Auswertung offener Antworten des Digital Maturity Assessments für Thalia
 
 
 ## Kernaussagen
 
-- Größte digitale Stärken liegen in Omnichannel-Strategie und Integration digitaler Services
-- Größte Herausforderungen sind Wettbewerbsdruck (v.a. Amazon), Prozesskomplexität und digitale Unternehmenskultur
-- Wichtige digitale Verbesserungen betreffen KI, Datenanalyse und Prozessautomatisierung
-- Zukünftige Trends im Buchhandel werden vor allem in KI, digitalen Plattformen und personalisierten Kundenerlebnissen gesehen
+- Größte digitale Stärken liegen in der Omnichannel-Strategie und der Integration digitaler Services
+- Größte Herausforderungen sind Wettbewerbsdruck durch Amazon, komplexe Prozesse/Systeme sowie kulturelle Veränderungsbereitschaft
+- Wichtigste Verbesserungsfelder: KI-Nutzung, Datenanalyse und Prozessautomatisierung
+- Erwartete Zukunftstrends im Buchhandel: KI, Automatisierung, Personalisierung, Mobile/Social Commerce, Plattformökonomie
 
 ## Action Items
 

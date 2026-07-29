@@ -229,13 +229,12 @@ Verwende exakt folgende Struktur. Source sollte IMMER den Link zum PDF Dokument 
 
 ## Tags
 
-Erstelle sinnvolle Tags.
+Erstelle sinnvolle Tags. Nutze höchstens 3 Tags:
 
 Beispiele:
 
 [
 "idea",
-"project",
 "ki",
 "automatisierung"
 ]
@@ -306,7 +305,7 @@ Output:
     "ki",
     "codeanalyse"
   ],
-  "source": "../Instructions/{PDF-Path}",
+  "source": "Instructions/{PDF-Path}",
   "topic": "Automatische Qualitätsprüfung von Quellcode",
   "summary": "Eine KI soll Pull Requests automatisch analysieren und Verbesserungsvorschläge liefern.",
   "key_points": [
