@@ -24,6 +24,7 @@ class PDFService:
             print("Kein Textlayer gefunden -> OCR")
             text = self.extract_ocr(file_path)
 
+        print(text)
         return text
 
 
