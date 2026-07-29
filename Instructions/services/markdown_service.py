@@ -123,7 +123,7 @@ class MarkdownService:
 
     def create_markdown(self, data, intake):
 
-        markdown = ""
+        #markdown = ""
 
         # markdown += f"""created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
         # title:: {data.get("title","")}
@@ -131,7 +131,7 @@ class MarkdownService:
         # source:: {data.get("source","")}
         # folder:: {data.get("folder","")}
         
-        markdown += f"""
+        markdown = f"""
         
         created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
 
