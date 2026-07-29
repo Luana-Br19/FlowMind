@@ -73,6 +73,7 @@ class BaseAgent(ABC):
             raise ValueError("Claude hat kein gültiges JSON zurückgegeben.")
 
         self.save_md(data, intake)
+        intake.category = self.agent_category
 
         return data
 

@@ -13,6 +13,7 @@ class IntakeItem:
     user: str = ""
     source: str = "Slack"
     channel: str = ""
+    category: str = ""
 
     metadata: Dict = field(default_factory=dict)
 

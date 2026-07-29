@@ -55,6 +55,8 @@ Instructions/
     json/ #Inhalt (Tags, Input, Quellen) -> später automatisch in Unterordner verschieben?
 
 Rückgabefelder Agent:
+
+Gemeinsam:
 folder
 filename
 title
@@ -64,5 +66,19 @@ topic
 key_points
 actions
 
+Besondere Ausgabefelder:
 Meeting-Agent: 
-meeting-data
+- meeting_data
+
+Workshop-Agent:
+- examples
+- learnings
+
+Idea-Agent:
+- specific_data
+
+Finanz-Agent:
+- specific_data
+
+Geschäftsreise-Agent:
+- specific_data

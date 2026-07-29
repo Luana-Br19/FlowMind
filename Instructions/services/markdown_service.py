@@ -143,6 +143,8 @@ class MarkdownService:
 
         folder:: {data.get("folder","")}
 
+        agent:: {intake.category}
+
         id:: {intake.id}
 
 
