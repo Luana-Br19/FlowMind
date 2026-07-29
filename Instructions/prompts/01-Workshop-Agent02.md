@@ -275,7 +275,7 @@ Output:
     "scrum",
     "retrospektive"
   ],
-  "source": "../Instructions/{PDF-Path}",
+  "source": "Instructions/{PDF-Path}",
   "topic": "Verbesserung der Sprint Retrospektiven",
   "key_points": [
     "Retrospektiven dienen der kontinuierlichen Verbesserung",
