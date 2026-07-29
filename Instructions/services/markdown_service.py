@@ -137,7 +137,7 @@ class MarkdownService:
 
         title:: {data.get("title","")}
 
-        tags:: {" ".join("#"+t for t in data.get("tags", []))}
+tags:: {" ".join("#"+t for t in data.get("tags", []))}
 
         source:: {data.get("source","")}
 
@@ -147,7 +147,7 @@ class MarkdownService:
 
         id:: {intake.id}
 
-        links:: [[{"[[".join(t + "]], " for t in data.get("tags", []))}
+links:: [[{"[[".join(t + "]], " for t in data.get("tags", []))}
 
 
 #  {data.get("title","")}
