@@ -147,6 +147,8 @@ class MarkdownService:
 
         id:: {intake.id}
 
+        links:: "[["+{" ".join(", " + t for t in data.get("tags", []))}+"]]"
+
 
 #  {data.get("title","")}
 
