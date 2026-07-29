@@ -139,7 +139,9 @@ class MarkdownService:
 
 tags:: {" ".join("#"+t for t in data.get("tags", []))}
 
-        source:: {data.get("source","")}
+source:: {data.get("source","")}
+
+quelle:: {intake.attachments}
 
         folder:: {data.get("folder","")}
 
