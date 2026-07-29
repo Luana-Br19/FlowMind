@@ -58,7 +58,7 @@ class PDFService:
         return text
 
     def attachment_reader(self, intake):
-        if intake.input_type in ["pdf", "xlsx", "md"]:
+        if intake.input_type in ["pdf", "xlsx", "md", "jpg", "png"]:
             pdf_path = intake.attachments[0]
 
             return self.read(
