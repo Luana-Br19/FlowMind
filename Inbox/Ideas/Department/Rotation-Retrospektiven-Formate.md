@@ -1,6 +1,6 @@
 
         
-        created:: 29.07.2026 17:08
+        created:: 30.07.2026 08:24
 
         title:: Rotation von Retrospektiven-Formaten
 
@@ -21,20 +21,21 @@ links:: [[idea]], [[department]], [[retrospektive]],
 
 ## Thema
 
-Verbesserung der Retrospektiven-Qualität durch Formatwechsel
+Teamprozesse und Retrospektiven-Gestaltung
 
 ## Zusammenfassung
 
-            Statt durchgehend 'Start-Stop-Continue' zu nutzen, soll pro Sprint ein anderes etabliertes Retro-Format aus einer festen Rotation von vier Formaten eingesetzt werden, um eingefahrene Diskussionsmuster zu vermeiden.
+            Statt durchgehend 'Start-Stop-Continue' zu nutzen, soll ein fester Rotationsplan aus vier etablierten Retro-Formaten eingeführt werden, um eingefahrene Diskussionsmuster zu vermeiden.
 
 
 ## Kernaussagen
 
-- Letzte 5 Retrospektiven brachten ähnliche Themen ohne neue Perspektiven
+- Letzte 5 Retrospektiven zeigten ähnliche Themen ohne neue Perspektiven
 - Team empfindet Retros als eintönig
 - Scrum Master moderiert pro Sprint ein anderes Format aus festem Rotationsplan
+- Ziel: höhere Beteiligung und bessere Sichtbarkeit von Problemen
 
 ## Action Items
 
-- [ ] Vorschlag dem Team vorstellen
-- [ ] Bei positivem Feedback Rotationsplan für 4 Sprints einplanen
+- [ ] Vorschlag im Team vorstellen
+- [ ] Rotationsplan bei positivem Feedback festlegen
