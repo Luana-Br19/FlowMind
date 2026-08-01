@@ -37,6 +37,9 @@ class BaseAgent(ABC):
                 {intake.attachments}
                 """
         )
+#        print(response.stop_reason)
+#print(response.usage.input_tokens)
+#print(response.usage.output_tokens)
         response = self.alter_response(response)
 
         return response
@@ -66,7 +69,7 @@ class BaseAgent(ABC):
         self.markdown_service.save(data, intake)
 
     def load_json(self, response, intake):
-        #print(repr(response))
+        print(repr(response))
         try:
             data = json.loads(response)
         except json.JSONDecodeError:

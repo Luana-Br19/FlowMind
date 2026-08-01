@@ -26,7 +26,7 @@ class LLMService:
         self,
         system_prompt: str,
         user_prompt: str,
-        max_tokens: int = 2000,
+        max_tokens: int = 4000,
     ) -> str:
 
         try:
