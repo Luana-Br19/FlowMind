@@ -133,19 +133,19 @@ class MarkdownService:
         
         markdown = f"""
         
-        created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
+created:: {datetime.now().strftime('%d.%m.%Y %H:%M')}
 
-        title:: {data.get("title","")}
+title:: {data.get("title","")}
 
 tags:: {" ".join("#"+t for t in data.get("tags", []))}
 
 source:: [[{data.get("source","")}]]
+source:: [[{intake.attachments}]]
+folder:: {data.get("folder","")}
 
-        folder:: {data.get("folder","")}
+agent:: {intake.category}
 
-        agent:: {intake.category}
-
-        id:: {intake.id}
+id:: {intake.id}
 
 links:: [[{"[[".join(t + "]], " for t in data.get("tags", []))}
 

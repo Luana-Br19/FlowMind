@@ -14,7 +14,6 @@ class TravelExcelService:
         "Datei",
         "Titel",
         "Dokumentart",
-        "Lieferant",
         "Datum",
         "Einzelkosten",
         "Währung",
@@ -52,7 +51,7 @@ class TravelExcelService:
 
         specific = data.get("specific_data", {})
 
-        supplier = self.extract_supplier(data)
+        #supplier = self.extract_supplier(data)
 
         costs = specific.get("costs", "")
 
@@ -62,7 +61,7 @@ class TravelExcelService:
             data.get("filename", ""),
             data.get("title", ""),
             data.get("document_type", ""),
-            supplier,
+            #supplier,
             specific.get("invoice_date", ""),
             value,
             currency,
