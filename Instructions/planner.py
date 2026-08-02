@@ -25,7 +25,7 @@ class Planner:
                 category="ideas",
             )
 
-        if any(tag in cat for tag in ["geschaeftsreise", "geschaeftsreisen", "businesstrip"]):
+        if any(tag in cat for tag in ["geschaeftsreise", "geschaeftsreisen", "businesstrip", "reise"]):
             
             return Plan(    
                 category="geschaeftsreise",
