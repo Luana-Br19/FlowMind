@@ -7,7 +7,7 @@ class IntakeItem:
     text: str
     input_type: str
     tags: List[str] = field(default_factory=list)
-    attachments: str = ""  #List[str] = field(default_factory=list)
+    attachments: List[str] = field(default_factory=list)
     
     id: str = ""
     user: str = ""

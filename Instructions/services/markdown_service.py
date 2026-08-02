@@ -140,7 +140,9 @@ title:: {data.get("title","")}
 tags:: {" ".join("#"+t for t in data.get("tags", []))}
 
 source:: [[{data.get("source","")}]]
-source:: [[{intake.attachments}]]
+
+source:: [{", ".join(intake.attachments)}]
+
 folder:: {data.get("folder","")}
 
 agent:: {intake.category}
@@ -198,6 +200,7 @@ links:: [[{"[[".join(t + "]], " for t in data.get("tags", []))}
             markdown += self._travel(specific)
 
         elif category == "Finanzen":
+            markdown += "Kosten: {specific.costs}" 
             markdown += self._finance(specific)
 
         return markdown
