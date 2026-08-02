@@ -139,9 +139,7 @@ title:: {data.get("title","")}
 
 tags:: {" ".join("#"+t for t in data.get("tags", []))}
 
-source:: [[{data.get("source","")}]]
-
-source:: [{", ".join(intake.attachments)}]
+source:: [[{", ".join(intake.attachments)}]]
 
 folder:: {data.get("folder","")}
 
