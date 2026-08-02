@@ -65,7 +65,7 @@ def main():
     intake = IntakeItem(
         text=data.get("text", ""),
         tags=data.get("tags", []),
-        attachments=data.get("attachments", []),
+        attachments=data.get("attachments", ""),
         input_type=data.get("type", ""),
         id=data.get("id", ""),
         user=data.get("user", ""),
