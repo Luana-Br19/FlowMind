@@ -1,7 +1,8 @@
 from agents.base_agent import BaseAgent
 from models.result import AgentResult
 import json
-from services.travel_excel_service2 import TravelExcelService
+from pathlib import Path
+from services.travel_excel_service3 import TravelExcelService
 
 class GeschaeftsreiseAgent(BaseAgent):
 
@@ -21,10 +22,16 @@ class GeschaeftsreiseAgent(BaseAgent):
         response = self.execute_llm(path, intake, document_text, tree)
 
         data = self.load_json(response, intake)
+        excel_path = Path(
+        "../Inbox",
+        data["folder"],
+        "Reiseübersicht.xlsx"
+        )
 
+        excel = TravelExcelService(excel_path)
 #        print("Hello")
-        excel = TravelExcelService()
-        excel.update(data)
+        #excel = TravelExcelService()
+#        excel.update(data)
 
 		# excel = TravelExcelService()
         # excel.update(data)
