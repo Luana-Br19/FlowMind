@@ -195,6 +195,7 @@ links:: [[{"[[".join(t + "]], " for t in data.get("tags", []))}
             markdown += self._ideas(specific)
 
         elif category == "Geschäftsreise":
+            print("GR")
             markdown += "Kosten: {specific.costs}"
             markdown += self._travel(specific)
 

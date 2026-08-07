@@ -22,7 +22,7 @@ class GeschaeftsreiseAgent(BaseAgent):
 
         data = self.load_json(response, intake)
 
-        print("Hello")
+#        print("Hello")
         excel = TravelExcelService()
         excel.update(data)
 
