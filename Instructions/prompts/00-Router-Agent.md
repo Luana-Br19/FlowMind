@@ -57,6 +57,6 @@ ENTSCHEIDUNGSLOGIK:
 
 AUSGABEFORMAT (ausschließlich dieses Feld, kein Fließtext davor/danach):
 {
-  "workshop | meeting | ideas | geschäftsreise | finance"
+  "workshop | meeting | ideas | geschaeftsreise | finance"
 }
 ```
