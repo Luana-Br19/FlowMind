@@ -179,7 +179,7 @@ links:: [[{"[[".join(t + "]], " for t in data.get("tags", []))}
         markdown = markdown_ref[0]
 
         category = data.get("category")
-
+        print(category)
         specific = data.get("specific_data", {})
 
         if category == "Workshop":
