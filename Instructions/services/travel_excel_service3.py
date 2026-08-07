@@ -344,7 +344,7 @@ class TravelExcelService:
         )
 
         costs = self.parse_cost(
-            data.get("costs", 0)
+            data.get("specific_data", {}).get("costs", 0)
         )
 
         currency = (

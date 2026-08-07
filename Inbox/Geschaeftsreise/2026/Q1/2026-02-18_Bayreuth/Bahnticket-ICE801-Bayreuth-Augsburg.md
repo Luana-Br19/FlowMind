@@ -1,8 +1,8 @@
 
         
-created:: 07.08.2026 16:27
+created:: 07.08.2026 16:44
 
-title:: Bahnticket Bayreuth-Augsburg (Rückfahrt)
+title:: Bahnticket Rückfahrt Bayreuth - Augsburg
 
 tags:: #geschaeftsreise #bayreuth #bahnticket
 
@@ -17,7 +17,7 @@ id:: 494
 links:: [[geschaeftsreise]], [[bayreuth]], [[bahnticket]], 
 
 
-#  Bahnticket Bayreuth-Augsburg (Rückfahrt)
+#  Bahnticket Rückfahrt Bayreuth - Augsburg
 
 ## Thema
 
@@ -25,17 +25,17 @@ Zugfahrt im Rahmen der Geschäftsreise nach Bayreuth
 
 ## Zusammenfassung
 
-            Online-Ticket der Deutschen Bahn für die einfache Fahrt von Bayreuth Hbf nach Augsburg Hbf am 18.02.2026, gebucht für Luana Bregenzer. Die Fahrt beinhaltet einen Schienenersatzverkehr (Bus) von Bayreuth nach Nürnberg sowie den ICE 801 von Nürnberg nach Augsburg.
+            Online-Ticket der Deutschen Bahn für die einfache Fahrt von Bayreuth Hbf nach Augsburg Hbf am 18.02.2026 mit ICE 801, gebucht für Luana Bregenzer.
 
 
 ## Kernaussagen
 
-- Einfache Fahrt Bayreuth Hbf nach Augsburg Hbf
-- Reisender: Luana Bregenzer (BahnCard 50)
-- Zugbindung: ICE 801, Abfahrt 18:59 Uhr am 18.02.2026
-- Bus EV von Bayreuth Hbf nach Nürnberg Hbf, Abfahrt 17:10 Uhr
-- Gesamtpreis 20,99 €, gebucht am 24.01.2026
-- Stornierung ausgeschlossen (Super Sparpreis)
+- Einfache Fahrt Bayreuth Hbf - Augsburg Hbf
+- ICE 801, Abfahrt 18:59 Uhr am 18.02.2026, Ankunft 20:08 Uhr
+- Zwischenstation Nürnberg Hbf (Bus EV + ICE)
+- Super Sparpreis, 2. Klasse, mit BC50
+- Gesamtpreis 20,99 €
+- Keine Stornierung möglich
 
 ## Travel Period
 
@@ -97,7 +97,7 @@ Bahnticket
 
 ## Other
 
-Ticketcode: RRCM1WJJ, Auftragsnummer: 294608422010
+Auftragsnummer 294608422010, Ticketcode RRCM1WJJ, gebucht am 24.01.2026 um 15:51 Uhr
 
 ## Trip Confidence
 
