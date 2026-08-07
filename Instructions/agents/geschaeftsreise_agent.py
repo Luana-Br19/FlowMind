@@ -27,7 +27,7 @@ class GeschaeftsreiseAgent(BaseAgent):
         data["folder"],
         "Reiseübersicht.xlsx"
         )
-
+        print("---------- {excel_path}-------------")
         excel = TravelExcelService(excel_path)
 #        print("Hello")
         #excel = TravelExcelService()
