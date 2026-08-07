@@ -1,10 +1,10 @@
 
         
-created:: 07.08.2026 10:28
+created:: 07.08.2026 10:31
 
-title:: ICE Fahrkarte Augsburg - Mannheim
+title:: ICE Fahrkarte Augsburg-Mannheim
 
-tags:: #geschaeftsreise #bahnticket #mannheim
+tags:: #geschaeftsreise #mannheim #bahnticket
 
 source:: [[uploads/Ticket_211959496212_30.01.2026__H.pdf]]
 
@@ -14,24 +14,89 @@ agent:: geschaeftsreise
 
 id:: 492
 
-links:: [[geschaeftsreise]], [[bahnticket]], [[mannheim]], 
+links:: [[geschaeftsreise]], [[mannheim]], [[bahnticket]], 
 
 
-#  ICE Fahrkarte Augsburg - Mannheim
+#  ICE Fahrkarte Augsburg-Mannheim
 
 ## Thema
 
-Bahnfahrt zur Geschäftsreise nach Mannheim
+Zugreise im Rahmen der Geschäftsreise nach Mannheim
 
 ## Zusammenfassung
 
-            Online-Ticket für die Zugfahrt mit ICE 690 von Augsburg Hbf nach Mannheim Hbf am 30.01.2026, Abfahrt 09:17 Uhr, Ankunft 11:26 Uhr. Super Sparpreis Young, 2. Klasse, Einfache Fahrt.
+            Online-Ticket für eine ICE-Fahrt von Augsburg Hbf nach Mannheim Hbf am 30.01.2026 mit dem Zug ICE 690. Die Fahrkarte wurde für Luana Bregenzer zum Super Sparpreis Young gebucht.
 
 
 ## Kernaussagen
 
-- ICE 690, Abfahrt Augsburg Hbf 09:17 Uhr, Ankunft Mannheim Hbf 11:26 Uhr
-- Super Sparpreis Young, 2. Klasse
-- Zugbindung an ICE 690 am 30.01.2026
+- Einfache Fahrt Augsburg Hbf nach Mannheim Hbf
+- ICE 690, Abfahrt 09:17 Uhr, Ankunft 11:26 Uhr
+- Reisende: Luana Bregenzer (BahnCard 50)
 - Gesamtpreis 26,99 €
-- Stornierung ausgeschlossen
+- Keine Stornierung möglich
+Kosten: {specific.costs}
+## Travel Period
+
+30.01.2026
+
+## Travel Start
+
+30.01.2026
+
+## Travel End
+
+30.01.2026
+
+## City
+
+Mannheim
+
+## Country
+
+Deutschland
+
+## Document Type
+
+Bahnticket
+
+## Transport
+
+- ICE 690 Augsburg Hbf - Mannheim Hbf, 09:17-11:26 Uhr
+
+## Accommodation
+
+– nicht angegeben –
+
+## Costs
+
+26,99 €
+
+## Visa
+
+– nicht angegeben –
+
+## Insurance
+
+– nicht angegeben –
+
+## Contacts
+
+- {'name': 'Luana Bregenzer', 'role': 'Reisende', 'contact': '– nicht angegeben –'}
+
+## Appointments
+
+
+## Expected Results
+
+
+## Next Steps
+
+
+## Other
+
+Auftragsnummer: 211959496212, Ticketcode: F6BA0V7X
+
+## Trip Confidence
+
+high
