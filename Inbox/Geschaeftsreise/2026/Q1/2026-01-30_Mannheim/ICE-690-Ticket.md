@@ -1,8 +1,8 @@
 
         
-created:: 02.08.2026 19:20
+created:: 07.08.2026 10:15
 
-title:: ICE Fahrkarte Augsburg - Mannheim
+title:: ICE Fahrkarte Augsburg-Mannheim
 
 tags:: #geschaeftsreise #mannheim #bahnticket
 
@@ -17,21 +17,20 @@ id:: 492
 links:: [[geschaeftsreise]], [[mannheim]], [[bahnticket]], 
 
 
-#  ICE Fahrkarte Augsburg - Mannheim
+#  ICE Fahrkarte Augsburg-Mannheim
 
 ## Thema
 
-Bahnfahrt zur Geschäftsreise nach Mannheim
+Bahnfahrt während Geschäftsreise
 
 ## Zusammenfassung
 
-            Online-Ticket für die ICE-Fahrt von Augsburg Hbf nach Mannheim Hbf am 30.01.2026 mit Zug ICE 690, Abfahrt 09:17 Uhr, Ankunft 11:26 Uhr.
+            Online-Ticket der Deutschen Bahn für eine einfache Fahrt von Augsburg Hbf nach Mannheim Hbf mit dem ICE 690 am 30.01.2026.
 
 
 ## Kernaussagen
 
-- Einfache Fahrt Augsburg Hbf - Mannheim Hbf
-- ICE 690, Abfahrt 09:17 Uhr, Ankunft 11:26 Uhr am 30.01.2026
-- 2. Klasse, Super Sparpreis Young
+- Super Sparpreis Young, 2. Klasse
+- ICE 690, Abfahrt Augsburg Hbf 09:17 Uhr, Ankunft Mannheim Hbf 11:26 Uhr
+- Zugbindung besteht, Stornierung ausgeschlossen
 - Gesamtpreis 26,99 €
-- Keine Stornierung möglich
