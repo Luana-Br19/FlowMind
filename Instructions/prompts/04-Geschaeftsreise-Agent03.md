@@ -335,7 +335,7 @@ Nutze exakt folgende Struktur
     "document_type": "",
     "transport": [],
     "accommodation": "",
-    "costs": "",
+    "costs": "", #gib die Kosten NUR als Zahlenwert mit Währung an! Kein Text oder Kommentar, da sonst nicht mehr damit gerechnet werden kann!
     "visa": "",
     "insurance": "",
     "contacts": [
@@ -505,7 +505,7 @@ Output
     "document_type": "Hotelrechnung",
     "transport": [],
     "accommodation": "Hotel Marriott",
-    "costs": "– nicht angegeben –",
+    "costs": "423,26€",
     "visa": "– nicht angegeben –",
     "insurance": "– nicht angegeben –",
     "contacts": [],
