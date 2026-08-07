@@ -113,7 +113,7 @@ class TravelExcelService:
         markdown_path : str, optional
             Pfad zur zugehörigen Markdown-Datei.
         """
-
+        print("=== TRAVEL EXCEL SERVICE START ===")
         # -----------------------------------------------------
         # Excel öffnen oder neu erstellen
         # -----------------------------------------------------

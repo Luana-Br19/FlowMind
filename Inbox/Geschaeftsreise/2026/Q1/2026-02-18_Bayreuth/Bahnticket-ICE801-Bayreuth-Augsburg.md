@@ -1,8 +1,8 @@
 
         
-created:: 07.08.2026 16:08
+created:: 07.08.2026 16:27
 
-title:: Bahnfahrkarte Bayreuth - Augsburg
+title:: Bahnticket Bayreuth-Augsburg (Rückfahrt)
 
 tags:: #geschaeftsreise #bayreuth #bahnticket
 
@@ -17,26 +17,25 @@ id:: 494
 links:: [[geschaeftsreise]], [[bayreuth]], [[bahnticket]], 
 
 
-#  Bahnfahrkarte Bayreuth - Augsburg
+#  Bahnticket Bayreuth-Augsburg (Rückfahrt)
 
 ## Thema
 
-Rückreise von Geschäftsreise Bayreuth nach Augsburg
+Zugfahrt im Rahmen der Geschäftsreise nach Bayreuth
 
 ## Zusammenfassung
 
-            Online-Ticket der Deutschen Bahn für die Rückfahrt von Bayreuth Hbf nach Augsburg Hbf am 18.02.2026. Reise erfolgte über Nürnberg Hbf mit Bus-Ersatzverkehr und anschließendem ICE 801.
+            Online-Ticket der Deutschen Bahn für die einfache Fahrt von Bayreuth Hbf nach Augsburg Hbf am 18.02.2026, gebucht für Luana Bregenzer. Die Fahrt beinhaltet einen Schienenersatzverkehr (Bus) von Bayreuth nach Nürnberg sowie den ICE 801 von Nürnberg nach Augsburg.
 
 
 ## Kernaussagen
 
 - Einfache Fahrt Bayreuth Hbf nach Augsburg Hbf
-- Abfahrt Bayreuth 17:10 Uhr, Ankunft Augsburg 20:08 Uhr
-- Umstieg in Nürnberg Hbf auf ICE 801 (18:59 Uhr)
-- Reisende: Luana Bregenzer
-- Gesamtpreis 20,99 € (Super Sparpreis, 2. Klasse, BC50)
-- Gebucht am 24.01.2026
-- Keine Stornierung möglich
+- Reisender: Luana Bregenzer (BahnCard 50)
+- Zugbindung: ICE 801, Abfahrt 18:59 Uhr am 18.02.2026
+- Bus EV von Bayreuth Hbf nach Nürnberg Hbf, Abfahrt 17:10 Uhr
+- Gesamtpreis 20,99 €, gebucht am 24.01.2026
+- Stornierung ausgeschlossen (Super Sparpreis)
 
 ## Travel Period
 
@@ -64,8 +63,8 @@ Bahnticket
 
 ## Transport
 
-- Bus EV: Bayreuth Hbf (17:10) - Nürnberg Hbf (18:35)
-- ICE 801: Nürnberg Hbf (18:59) - Augsburg Hbf (20:08)
+- Bus EV Bayreuth Hbf - Nürnberg Hbf
+- ICE 801 Nürnberg Hbf - Augsburg Hbf
 
 ## Accommodation
 
@@ -98,7 +97,7 @@ Bahnticket
 
 ## Other
 
-Ticketcode: RRCM1WJJ, Auftragsnummer: 294608422010, keine Vorsteuerabzugsfähigkeit
+Ticketcode: RRCM1WJJ, Auftragsnummer: 294608422010
 
 ## Trip Confidence
 

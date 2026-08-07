@@ -35,5 +35,8 @@ class GeschaeftsreiseAgent(BaseAgent):
 
 		# excel = TravelExcelService()
         # excel.update(data)
-
+        excel.add_document(
+        data,
+        markdown_path=excel_path
+        )
         return self.agent_result(data, intake)
