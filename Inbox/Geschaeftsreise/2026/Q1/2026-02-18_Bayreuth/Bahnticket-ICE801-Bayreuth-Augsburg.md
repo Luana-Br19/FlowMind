@@ -1,8 +1,8 @@
 
         
-created:: 07.08.2026 15:54
+created:: 07.08.2026 16:08
 
-title:: Bahnfahrkarte Bayreuth Hbf - Augsburg Hbf
+title:: Bahnfahrkarte Bayreuth - Augsburg
 
 tags:: #geschaeftsreise #bayreuth #bahnticket
 
@@ -17,29 +17,30 @@ id:: 494
 links:: [[geschaeftsreise]], [[bayreuth]], [[bahnticket]], 
 
 
-#  Bahnfahrkarte Bayreuth Hbf - Augsburg Hbf
+#  Bahnfahrkarte Bayreuth - Augsburg
 
 ## Thema
 
-Rückreise von Bayreuth nach Augsburg per ICE
+Rückreise von Geschäftsreise Bayreuth nach Augsburg
 
 ## Zusammenfassung
 
-            Online-Ticket der Deutschen Bahn für die einfache Fahrt von Bayreuth Hbf nach Augsburg Hbf am 18.02.2026 mit ICE 801 ab Nürnberg Hbf, gebucht am 24.01.2026, Gesamtpreis 20,99 €.
+            Online-Ticket der Deutschen Bahn für die Rückfahrt von Bayreuth Hbf nach Augsburg Hbf am 18.02.2026. Reise erfolgte über Nürnberg Hbf mit Bus-Ersatzverkehr und anschließendem ICE 801.
 
 
 ## Kernaussagen
 
-- Fahrt Bayreuth Hbf - Augsburg Hbf
-- ICE 801 ab Nürnberg Hbf 18:59 Uhr, an Augsburg Hbf 20:08 Uhr
-- Zubringer: Bus EV Bayreuth Hbf -> Nürnberg Hbf, ab 17:10 Uhr, an 18:35 Uhr
-- Super Sparpreis, 2. Klasse, 1 Person mit BC50
+- Einfache Fahrt Bayreuth Hbf nach Augsburg Hbf
+- Abfahrt Bayreuth 17:10 Uhr, Ankunft Augsburg 20:08 Uhr
+- Umstieg in Nürnberg Hbf auf ICE 801 (18:59 Uhr)
+- Reisende: Luana Bregenzer
+- Gesamtpreis 20,99 € (Super Sparpreis, 2. Klasse, BC50)
+- Gebucht am 24.01.2026
 - Keine Stornierung möglich
-- Ticketcode: RRCM1WJJ
 
 ## Travel Period
 
-18.02.2026-18.02.2026
+18.02.2026
 
 ## Travel Start
 
@@ -63,8 +64,8 @@ Bahnticket
 
 ## Transport
 
-- Bus EV Bayreuth Hbf -> Nürnberg Hbf, 17:10-18:35 Uhr
-- ICE 801 Nürnberg Hbf -> Augsburg Hbf, 18:59-20:08 Uhr
+- Bus EV: Bayreuth Hbf (17:10) - Nürnberg Hbf (18:35)
+- ICE 801: Nürnberg Hbf (18:59) - Augsburg Hbf (20:08)
 
 ## Accommodation
 
@@ -97,7 +98,7 @@ Bahnticket
 
 ## Other
 
-Auftragsnummer: 294608422010, Ticketcode: RRCM1WJJ, gebucht am 24.01.2026 um 15:51 Uhr
+Ticketcode: RRCM1WJJ, Auftragsnummer: 294608422010, keine Vorsteuerabzugsfähigkeit
 
 ## Trip Confidence
 

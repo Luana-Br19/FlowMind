@@ -103,7 +103,7 @@ class MarkdownService:
         filename = data["filename"]
 
         full_path = self.base_path / folder / filename
-
+        print(full_path)
         full_path.parent.mkdir(
             parents=True,
             exist_ok=True
