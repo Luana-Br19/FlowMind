@@ -1,7 +1,7 @@
 from agents.base_agent import BaseAgent
 from models.result import AgentResult
 import json
-from services.travel_excel_service import TravelExcelService
+from services.travel_excel_service2 import TravelExcelService
 
 class GeschaeftsreiseAgent(BaseAgent):
 

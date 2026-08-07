@@ -1,8 +1,8 @@
 
         
-created:: 07.08.2026 10:31
+created:: 07.08.2026 14:10
 
-title:: ICE Fahrkarte Augsburg-Mannheim
+title:: ICE Fahrkarte Augsburg - Mannheim
 
 tags:: #geschaeftsreise #mannheim #bahnticket
 
@@ -17,28 +17,28 @@ id:: 492
 links:: [[geschaeftsreise]], [[mannheim]], [[bahnticket]], 
 
 
-#  ICE Fahrkarte Augsburg-Mannheim
+#  ICE Fahrkarte Augsburg - Mannheim
 
 ## Thema
 
-Zugreise im Rahmen der Geschäftsreise nach Mannheim
+Bahnfahrt zur Geschäftsreise nach Mannheim
 
 ## Zusammenfassung
 
-            Online-Ticket für eine ICE-Fahrt von Augsburg Hbf nach Mannheim Hbf am 30.01.2026 mit dem Zug ICE 690. Die Fahrkarte wurde für Luana Bregenzer zum Super Sparpreis Young gebucht.
+            Online-Ticket für die ICE-Fahrt von Augsburg Hbf nach Mannheim Hbf am 30.01.2026 mit Zug ICE 690, gebucht für Luana Bregenzer.
 
 
 ## Kernaussagen
 
-- Einfache Fahrt Augsburg Hbf nach Mannheim Hbf
+- Einfache Fahrt Augsburg Hbf - Mannheim Hbf
 - ICE 690, Abfahrt 09:17 Uhr, Ankunft 11:26 Uhr
-- Reisende: Luana Bregenzer (BahnCard 50)
+- 2. Klasse, Super Sparpreis Young mit BC50
 - Gesamtpreis 26,99 €
-- Keine Stornierung möglich
-Kosten: {specific.costs}
+- Zugbindung, keine Stornierung möglich
+
 ## Travel Period
 
-30.01.2026
+30.01.2026–31.01.2026
 
 ## Travel Start
 
@@ -46,7 +46,7 @@ Kosten: {specific.costs}
 
 ## Travel End
 
-30.01.2026
+31.01.2026
 
 ## City
 
@@ -62,7 +62,7 @@ Bahnticket
 
 ## Transport
 
-- ICE 690 Augsburg Hbf - Mannheim Hbf, 09:17-11:26 Uhr
+- ICE 690 Augsburg Hbf -> Mannheim Hbf, 30.01.2026, 09:17-11:26 Uhr
 
 ## Accommodation
 
@@ -95,7 +95,7 @@ Bahnticket
 
 ## Other
 
-Auftragsnummer: 211959496212, Ticketcode: F6BA0V7X
+Ticketcode F6BA0V7X, Auftragsnummer 211959496212, gebucht am 19.01.2026
 
 ## Trip Confidence
 
