@@ -453,6 +453,7 @@ Nutze vorhandene Reiseordner bevorzugt.
 
 Erzeuge keine neuen Reiseordner, wenn ein vorhandener dieselbe Reise beschreibt.
 
+Um eine Dopplung von Reisen zu vermeiden, musst du wissen, dass Augsburg immer die Startlocation ist, da sich der Firmensitz in Augsburg befindet. Findest du aber Flugtickets München - Singapur ist logischerweise München der Start, da es näher an Augsburg ist und einen internationalen Flughafen besitzt. Der Ordnername sollte dann immer den Namen des Reiseziels haben. (Also Singapur und nicht München oder eben Augsburg)
 
 --------------------------------------------------
 
