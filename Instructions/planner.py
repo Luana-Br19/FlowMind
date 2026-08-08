@@ -7,11 +7,11 @@ class Planner:
         category = intake.tags
         cat = [wort.lower() for wort in category]
 
-        if any(tag in cat for tag in ["finance", "finanzen"]):
+#        if any(tag in cat for tag in ["finance", "finanzen"]):
 
-            return Plan(
-                category="finance",
-            )
+ #           return Plan(
+  #              category="finance",
+   #         )
 
         if any(tag in cat for tag in ["workshop", "workshops"]):
             

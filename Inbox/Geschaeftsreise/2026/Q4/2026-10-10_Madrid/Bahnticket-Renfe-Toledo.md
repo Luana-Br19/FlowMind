@@ -1,8 +1,8 @@
 
         
-created:: 07.08.2026 17:02
+created:: 08.08.2026 16:36
 
-title:: Renfe Bahntickets Madrid-Toledo Tagesausflug
+title:: Renfe Bahntickets Madrid - Toledo Tagesausflug
 
 tags:: #geschaeftsreise #madrid #bahnticket
 
@@ -17,23 +17,23 @@ id:: 514
 links:: [[geschaeftsreise]], [[madrid]], [[bahnticket]], 
 
 
-#  Renfe Bahntickets Madrid-Toledo Tagesausflug
+#  Renfe Bahntickets Madrid - Toledo Tagesausflug
 
 ## Thema
 
-Bahnfahrt während Geschäftsreise Madrid
+Bahnfahrt während Geschäftsreise nach Madrid
 
 ## Zusammenfassung
 
-            Gruppenbahntickets für einen Tagesausflug von Madrid nach Toledo und zurück am 13.10.2026 im Rahmen der Geschäftsreise nach Madrid.
+            Gruppenbahntickets für einen Tagesausflug von Madrid nach Toledo und zurück im Rahmen der Geschäftsreise nach Madrid.
 
 
 ## Kernaussagen
 
 - Renfe AVANT Hochgeschwindigkeitszug
 - 10 Personen Gruppenticket
-- Hin- und Rückfahrt Madrid Puerta de Atocha - Toledo
-- Gesamtkosten 278,00 € inkl. 10% IVA
+- Madrid Puerta de Atocha – Toledo – Madrid Puerta de Atocha
+- Reisedatum 13.10.2026
 
 ## Travel Period
 
@@ -61,8 +61,8 @@ Bahnticket
 
 ## Transport
 
-- Renfe AVANT 08122: Madrid Puerta de Atocha -> Toledo, 09:20-09:53
-- Renfe AVANT 08183: Toledo -> Madrid Puerta de Atocha, 18:25-18:58
+- Renfe AVANT 08122 Madrid Puerta de Atocha -> Toledo 09:20-09:53
+- Renfe AVANT 08183 Toledo -> Madrid Puerta de Atocha 18:25-18:58
 
 ## Accommodation
 
@@ -85,7 +85,6 @@ Bahnticket
 
 ## Appointments
 
-- {'date': '13.10.2026', 'time': '09:20-18:58', 'title': 'Tagesausflug Toledo', 'participants': []}
 
 ## Expected Results
 
@@ -95,7 +94,7 @@ Bahnticket
 
 ## Other
 
-Gruppenticket für 10 Personen, Ticket-ID RENFE-AVANT-7712
+Gruppenticket für 10 Personen, inkl. 10% IVA
 
 ## Trip Confidence
 
